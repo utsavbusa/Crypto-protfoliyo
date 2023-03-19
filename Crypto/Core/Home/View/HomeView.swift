@@ -19,26 +19,7 @@ struct HomeView: View {
             
             //content layer
             VStack{
-                HStack{
-                    CirculeButtonView(iconeName: showProtfolio ? "plus" : "info")
-                        .background(
-                        CirculeButtonAnimationView(animate: $showProtfolio))
-                    Spacer()
-                    Text(showProtfolio ? "Protfolio" : "Live Price")
-                        .font(.headline)
-                        .fontWeight(.heavy)
-                        .foregroundColor(Color.theme.accent)
-                        .animation(.none)
-                    Spacer()
-                    CirculeButtonView(iconeName: "chevron.right")
-                        .rotationEffect(Angle(degrees: showProtfolio ? 180 : 0))
-                        .onTapGesture {
-                            withAnimation(.spring()){
-                                showProtfolio.toggle()
-                            }
-                        }
-                }
-                .padding(.horizontal)
+                HomeHeader
                 Spacer()
             }
         }
@@ -51,5 +32,30 @@ struct HomeView_Previews: PreviewProvider {
             HomeView()
                 .navigationBarHidden(true)
         }
+    }
+}
+extension HomeView{
+    
+    private var HomeHeader: some View{
+        HStack{
+            CirculeButtonView(iconeName: showProtfolio ? "plus" : "info")
+                .background(
+                CirculeButtonAnimationView(animate: $showProtfolio))
+            Spacer()
+            Text(showProtfolio ? "Protfolio" : "Live Price")
+                .font(.headline)
+                .fontWeight(.heavy)
+                .foregroundColor(Color.theme.accent)
+                .animation(.none)
+            Spacer()
+            CirculeButtonView(iconeName: "chevron.right")
+                .rotationEffect(Angle(degrees: showProtfolio ? 180 : 0))
+                .onTapGesture {
+                    withAnimation(.spring()){
+                        showProtfolio.toggle()
+                    }
+                }
+        }
+        .padding(.horizontal)
     }
 }
