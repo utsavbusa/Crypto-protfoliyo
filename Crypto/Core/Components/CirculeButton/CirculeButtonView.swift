@@ -33,7 +33,7 @@ struct CirculeButtonView_Previews: PreviewProvider {
             
             CirculeButtonView(iconeName: "pluse")
                 .previewLayout(.sizeThatFits)
-                .colorScheme(.dark)
+                .preferredColorScheme(.dark)
         }
     }
 }
