@@ -21,6 +21,7 @@
 		F837B7DC29C7240C007F2C83 /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837B7DB29C7240C007F2C83 /* CoinRowView.swift */; };
 		F837B7DE29C72482007F2C83 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837B7DD29C72482007F2C83 /* PreviewProvider.swift */; };
 		F837B7E029C7283B007F2C83 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837B7DF29C7283B007F2C83 /* Double.swift */; };
+		F837B7E229C73536007F2C83 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837B7E129C73536007F2C83 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +40,7 @@
 		F837B7DB29C7240C007F2C83 /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		F837B7DD29C72482007F2C83 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		F837B7DF29C7283B007F2C83 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		F837B7E129C73536007F2C83 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 		F837B7CF29C6C71E007F2C83 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				F837B7E129C73536007F2C83 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -239,6 +242,7 @@
 				F837B7D529C6C8D0007F2C83 /* CirculeButtonView.swift in Sources */,
 				F837B7DE29C72482007F2C83 /* PreviewProvider.swift in Sources */,
 				F837B7D129C6C73B007F2C83 /* HomeView.swift in Sources */,
+				F837B7E229C73536007F2C83 /* HomeViewModel.swift in Sources */,
 				F837B7CB29C6C52B007F2C83 /* Color.swift in Sources */,
 				F837B7DA29C6D5ED007F2C83 /* CoinModel.swift in Sources */,
 				F837B7E029C7283B007F2C83 /* Double.swift in Sources */,

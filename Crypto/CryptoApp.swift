@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct CryptoApp: App {
-    let persistenceController = PersistenceController.shared
+    @StateObject private var vm = HomeViewModel()
 
     var body: some Scene {
         WindowGroup {
@@ -17,6 +17,7 @@ struct CryptoApp: App {
                 HomeView()
                     .navigationBarHidden(true)
             }
+            .environmentObject(vm)
         }
     }
 }
