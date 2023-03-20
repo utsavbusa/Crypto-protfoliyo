@@ -22,6 +22,7 @@
 		F837B7DE29C72482007F2C83 /* PreviewProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837B7DD29C72482007F2C83 /* PreviewProvider.swift */; };
 		F837B7E029C7283B007F2C83 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837B7DF29C7283B007F2C83 /* Double.swift */; };
 		F837B7E229C73536007F2C83 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837B7E129C73536007F2C83 /* HomeViewModel.swift */; };
+		F837B7E529C73D96007F2C83 /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F837B7E429C73D96007F2C83 /* CoinDataService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -41,6 +42,7 @@
 		F837B7DD29C72482007F2C83 /* PreviewProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewProvider.swift; sourceTree = "<group>"; };
 		F837B7DF29C7283B007F2C83 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
 		F837B7E129C73536007F2C83 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		F837B7E429C73D96007F2C83 /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				F837B7C929C6C511007F2C83 /* Extenstion */,
+				F837B7E329C73D65007F2C83 /* Services */,
 				F837B7D829C6D5C4007F2C83 /* Models */,
 				F837B7CC29C6C70D007F2C83 /* Core */,
 				F837B7B429C6C398007F2C83 /* CryptoApp.swift */,
@@ -164,6 +167,14 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		F837B7E329C73D65007F2C83 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F837B7E429C73D96007F2C83 /* CoinDataService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -236,6 +247,7 @@
 			files = (
 				F837B7D729C6CCAC007F2C83 /* CirculeButtonAnimationView.swift in Sources */,
 				F837B7C129C6C399007F2C83 /* Crypto.xcdatamodeld in Sources */,
+				F837B7E529C73D96007F2C83 /* CoinDataService.swift in Sources */,
 				F837B7BE29C6C399007F2C83 /* Persistence.swift in Sources */,
 				F837B7B729C6C398007F2C83 /* ContentView.swift in Sources */,
 				F837B7DC29C7240C007F2C83 /* CoinRowView.swift in Sources */,

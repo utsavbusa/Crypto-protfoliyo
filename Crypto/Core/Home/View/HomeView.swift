@@ -45,6 +45,7 @@ struct HomeView: View {
             NavigationView{
                 HomeView()
                     .navigationBarHidden(true)
+                
             }
             .environmentObject(dev.homeVm)
         }
